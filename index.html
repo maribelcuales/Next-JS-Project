@@ -2,20 +2,14 @@
 <html>
   <body>
     <div id="app"></div>
+
     <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <!-- Babel Script -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
     <script type="text/jsx">
       const app = document.getElementById('app')
-
-      function createTitle(title) {
-        if (title) {
-          return title
-        } else {
-          return 'Default title'
-        }
-      }
 
       function Header({ title }) {
         console.log({title}) 
